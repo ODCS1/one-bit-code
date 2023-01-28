@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+ul[type="disc"] > li {
+  font-size: 1.3em;
+}
+
+ul[type="circle"] > li {
+  font-size: 1.1em;
+}

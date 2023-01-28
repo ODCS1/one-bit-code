@@ -2,4 +2,36 @@
 
 @media (min-width: 768px) and (max-width: 992px){
   
+  header > .tituloh1-content{
+    font-size: 1.6em;
+  }
+
+  main{
+    width: 755px;
+  }
+  main > .tituloh2-content{
+    font-size: 1.4em;
+  }
+  main > .p-content{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992px){
+  header{
+    height: 80px;
+  }
+  header > .tituloh1-content{
+    font-size: 1.8em;
+    margin-top: 10px;
+  }
+  main{
+    width: 940px;
+  }
+  main > .tituloh2-content{
+    font-size: 1.6em;
+  }
+  main > .p-content{
+    font-size: 1.1em;
+  }
 }

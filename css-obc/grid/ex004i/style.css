@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-color: darkgray;
+  min-height: 100vh;
+  display: flex;
+}
+
+.item{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
+}

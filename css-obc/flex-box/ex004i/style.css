@@ -13,7 +13,15 @@ html, body{
 .container{
   background-color: darkgray;
   min-height: 100vh;
+
   display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 15px;
+  
 }
 
 .item{

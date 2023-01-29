@@ -1,4 +1,4 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
 * {
   margin: 0;
@@ -27,8 +27,15 @@
   width: 150px;
   text-align: center;
   font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border-radius: 16px;
+
+  order: 0;
+  /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  flex-flow: 0 1 auto; /* Shorthand */
+  align-self: auto;
 }
 
 .bloco-2 {
@@ -38,8 +45,15 @@
   width: 150px;
   text-align: center;
   font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border-radius: 16px;
+
+  order: 0;
+  /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  flex-flow: 0 1 auto;
+  align-self: auto;
 }
 
 .bloco-3 {
@@ -49,6 +63,13 @@
   width: 150px;
   text-align: center;
   font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border-radius: 16px;
+
+  order: 0;
+  /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  flex-flow: 0 1 auto;
+  align-self: auto;
 }

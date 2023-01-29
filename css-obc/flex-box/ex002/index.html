@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Box</title>
+    <style>
+      section.container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px 30px;
+      }
+
+      .caixa{
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      #n1 {      
+        background-color: rgba(255, 0, 0, 0.706);
+      }
+      #n2 {
+        background-color: rgba(0, 128, 0, 0.715);
+      }
+      #n3 {
+        background-color: rgba(0, 0, 255, 0.712);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testando diferentes formatos de Flex-Box</h1>
+    <h2>O que é Flex-Box?</h2>
+    <p>
+      Flex-Box é uma opção de display de um container, onde um elemento pai vai
+      receber essas configurações em relação ao elemento filho, ou seja, são
+      configurações feitas no css do <strong>container</strong> para serem
+      realizadas para os elementos dispostos dentro do mesmo.
+    </p>
+    <section class="container">
+      <div id="n1" class="caixa">1</div>
+      <div id="n2" class="caixa">2</div>
+      <div id="n3" class="caixa">3</div>
+      <div id="n1" class="caixa">4</div>
+      <div id="n2" class="caixa">5</div>
+      <div id="n3" class="caixa">6</div>
+      <div id="n1" class="caixa">7</div>
+      <div id="n2" class="caixa">8</div>
+      <div id="n3" class="caixa">9</div>
+    </section>
+  </body>
+</html>

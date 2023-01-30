@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media (min-width: 620px) and (max-width: 992px) {
+  header > #rock {
+    width: 25px;
+    height: auto;
+  }
+
+  header > #obc {
+    width: 150px;
+  }
+
+  span#burguer{
+    font-size: 32px;
+  }
+
+  body > main {
+    width: 600px;
+    margin: auto;
+  }
+  body > main > h1 {
+    font-size: 1.7em;
+  }
+  main > p {
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 993px) {
+  header > #rock {
+    width: 30px;
+    height: auto;
+  }
+
+  header > #obc {
+    width: 180px;
+  }
+  
+  span#burguer{
+    font-size: 40px;
+  }
+
+  body > main {
+    width: 600px;
+    margin: auto;
+  }
+  body > main > h1 {
+    font-size: 1.7em;
+  }
+  main > p {
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 0.9em;
+  }
+}

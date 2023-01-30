@@ -7,19 +7,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+  background-color: #754243;
+}
+
 header {
   display: flex;
   background-color: black;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 15px;
+  height: 60px;
 }
 #rock {
   width: 20px;
 }
 
 #obc {
-  width: 100px;
+  width: 120px;
 }
 
 span#burguer {
@@ -29,7 +35,7 @@ span#burguer:hover {
   cursor: pointer;
   color: #f63f45;
 }
-menu#botoes {
+body > menu#botoes {
   display: none;
 }
 
@@ -60,11 +66,15 @@ div#container > a:hover{
 main{
   width: 90vw;
   margin: auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 0px 0px 10px 10px;
 }
 main > h1{
-  margin: 15px 10px;
+  font-size: 1.7em;
 }
 main > p{
   text-align: justify;
   line-height: 1.4em;
+  font-size: 0.9em;
 }

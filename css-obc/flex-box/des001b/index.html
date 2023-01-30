@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <link rel="stylesheet" href="./estilo/style.css" />
+    <title>Fixaxão Flexbox</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./imagens/iconrock-red.svg"
+        alt="Ícone mão símbolo rock"
+        id="rock"
+      />
+      <img src="./imagens/logo-onebitcode.svg" alt="logo-onebitcode" id="obc" />
+      <span
+        class="material-symbols-outlined"
+        id="burguer"
+        onclick="clickMenu()"
+      >
+        menu
+      </span>
+    </header>
+    <menu id="botoes">
+      <div id="container">
+        <a href="#">Início</a>
+        <a href="#">FAQ</a>
+        <a href="#">Suporte</a>
+      </div>
+    </menu>
+    <main>
+      <h1>Desafio Flexbox</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dicta natus ullam, eius molestiae similique totam porro adipisci a debitis, ad quis ipsam aut reprehenderit autem assumenda? Nulla, a amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deleniti, molestias ipsam, nulla quo officia eum reiciendis saepe, enim porro a doloremque tenetur ea culpa commodi facilis quia vel. Molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum laborum, doloremque illum corrupti qui tenetur, excepturi aspernatur numquam, dolorum optio maiores iusto facilis hic dicta atque! Porro dicta quod totam.</p>
+    </main>
+    <script>
+      function clickMenu(){
+        if (botoes.style.display == 'none') {
+          botoes.style.display = 'block'
+        } else{
+          botoes.style.display = 'none'
+        }
+      }
+    </script>
+  </body>
+</html>

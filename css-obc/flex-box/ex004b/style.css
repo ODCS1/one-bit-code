@@ -12,7 +12,7 @@ html, body{
 
 .container{
   background-color: darkgray;
-  min-height: 100vh;
+  height: 100vh;
 
   display: flex;
   /* flex-direction: row;
@@ -20,12 +20,12 @@ html, body{
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 0px 15px;
+  align-content: center;
   
 }
 
 .item{
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   border: 2px solid black;
   background-color: white;
@@ -34,4 +34,22 @@ html, body{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px; */
+
+  flex: 1 0 200px;
+}
+
+.item1{
+  background-color: lightgoldenrodyellow;
+}
+
+.item2{
+  background-color: lightskyblue;
+}
+
+.item3{
+background-color: darkkhaki;
 }

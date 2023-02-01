@@ -10,39 +10,39 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 20vh 70vh 10vh;
-  /* grid-template-areas: "h h"
+  grid-template-areas: "h h"
                         "m a"
-                        "f f"; */
+                        "f f";
 }
 
 header{
   background-color: yellow;
   /* height: 200px; */
-  grid-column: 1/3;
-  grid-row: 1/2;
-  grid-area: "h";
+  /* grid-column: 1/3;
+  grid-row: 1/2; */
+  grid-area: h;
 }
 
 main{
   background-color: blue;
   /* height: 200px; */
-  grid-column: 1/2;
-  grid-row: 2/3;
-  grid-area: "m";
+  /* grid-column: 1/2;
+  grid-row: 2/3; */
+  grid-area: m;
 }
 
 aside{
   background-color: green;
   /* height: 200px; */
-  grid-column: 2/3;
-  grid-row: 2/3;
-  grid-area: "a";
+  /* grid-column: 2/3;
+  grid-row: 2/3; */
+  grid-area: a;
 }
 
 footer{
   background-color: red;
   /* height: 200px; */
-  grid-column: 1/3;
-  grid-row: 3/4;
-  grid-area: "f";
+  /* grid-column: 1/3;
+  grid-row: 3/4; */
+  grid-area: f;
 }

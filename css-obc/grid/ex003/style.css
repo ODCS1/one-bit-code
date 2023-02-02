@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  background-color: black;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+}

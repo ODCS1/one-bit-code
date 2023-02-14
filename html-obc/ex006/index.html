@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+  <h1>Cadastro da liga dos astronautas</h1>
+  <form action="#" method="post" autocomplete="on">
+    <p>
+      <label for="inome">Nome: </label>
+      <input type="text" name="nome" id="inome" required autocomplete="name">
+    </p>
+    <p>
+      <label for="iemail">Email: </label>
+      <input type="email" name="email" id="iemail" required autocomplete="email">
+      <label for="isenha">-Senha: </label>
+      <input type="password" name="senha" id="isenha" autocomplete="current-password">
+    </p>
+    <p>
+      <label for="idata">Data de nascimento: </label>
+      <input type="date" name="data" id="idata">
+      <label for="ifoto">-Foto: </label>
+      <input type="file" name="foto" id="ifoto">
+    </p>
+    <p>
+      <label for="ipais">Nacionalidade: </label>
+      <input type="text" name="pais" id="ipais" list="listp">
+      <datalist id="listp">
+        <option>Brasil</option>
+        <option>Alemanha</option>
+        <option>China</option>
+        <option>Índia</option>
+        <option>Japão</option>
+        <option>Rússia</option>
+        <option>Canadá</option>
+        <option>EUA</option>
+        <option>Turquia</option>
+        <option>Bielorússia</option>
+        <option>Angola</option>
+        <option>Vietnam</option>
+      </datalist>
+      <label for="igen">-Genêro: </label>
+      <input type="radio" name="gen" id="igenf">
+      <label for="igenf">F</label>
+      <input type="radio" name="gen" id="igenm">
+      <label for="igenm">M</label>
+    </p>
+    <p>
+      Suas principais qualidades
+      <br>
+      <label for="iinte">Inteligência</label>
+      <input type="checkbox" name="inte" id="iinte"> | 
+      <label for="iresi">Resiliência</label>
+      <input type="checkbox" name="resi" id="iresi"> | 
+      <label for="ipf">Preparo Físico</label>
+      <input type="checkbox" name="pf" id="ipf"> | 
+      <label for="ieduca">Educação</label>
+      <input type="checkbox" name="educa" id="ieduca"> |
+    </p>
+    <p>
+      input
+    </p>
+  </form>
+</body>
+</html>

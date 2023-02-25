@@ -19,16 +19,16 @@ let opcoes = prompt('As opções para tranformação: \n Para milímetro: mm \n 
 
 if (opcoes == 'mm'){
   valor *= 1000
-  alert(`O valor convertido para ${opcoes} ficou ${valor}`)
+  alert(`O valor convertido para ${opcoes} ficou ${valor}${opcoes}`)
 }else if(opcoes == 'cm'){
   valor *= 100
-  alert(`O valor convertido para ${opcoes} ficou ${valor}`)
+  alert(`O valor convertido para ${opcoes} ficou ${valor}${opcoes}`)
 }else if(opcoes == 'dm'){
   valor *= 10
-  alert(`O valor convertido para ${opcoes} ficou ${valor}`)
+  alert(`O valor convertido para ${opcoes} ficou ${valor}${opcoes}`)
 }else if(opcoes == 'km'){
   valor *= 1/1000
-  alert(`O valor convertido para ${opcoes} ficou ${valor}`)
+  alert(`O valor convertido para ${opcoes} ficou ${valor}${opcoes}`)
 }else{
   alert('Opção inválida')
 }

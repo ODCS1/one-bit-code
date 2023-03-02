@@ -2,3 +2,9 @@
 
 */
 
+let number = Number(prompt('Digite um número: '))
+
+for(let c = 1; c <= 20; c++){
+  text = `${number} x ${c} = ${number * c}`
+  alert(text)
+}
